@@ -15,8 +15,7 @@ jobs:
       with:
         username: ${{secrets.DOCKER_REGISTRY_USERNAME}}
         password: ${{secrets.DOCKER_REGISTRY_PASSWORD}}
-        registry: realwavelab.azurecr.io
-        repository: dragonboarding
+        repository: lucasbfernandes/dragonboarding
         tag_with_ref: true
         tag_with_sha: false
     
@@ -25,7 +24,6 @@ jobs:
       with:
         username: ${{secrets.DOCKER_REGISTRY_USERNAME}}
         password: ${{secrets.DOCKER_REGISTRY_PASSWORD}}
-        registry: realwavelab.azurecr.io
-        repository: dragonboarding-z
+        repository: lucasbfernandes/dragonboarding-z
         tag_with_ref: true
         tag_with_sha: false
